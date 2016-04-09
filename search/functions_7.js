@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['redtimer',['RedTimer',['../classredtimer_1_1_red_timer.html#a7294269ee5d97db49888b5918623618c',1,'redtimer::RedTimer']]]
+  ['name',['name',['../classredtimer_1_1_simple_item.html#abc33520c1e854a46ffa889e8d8a35f07',1,'redtimer::SimpleItem']]]
 ];

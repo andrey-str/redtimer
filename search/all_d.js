@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['_7eredtimer',['~RedTimer',['../classredtimer_1_1_red_timer.html#af65f711ff3c040a513f8bd59bf29ab79',1,'redtimer::RedTimer']]]
+  ['updateissuestatuses',['updateIssueStatuses',['../classredtimer_1_1_settings.html#a96209dc05063000077dd5deb6d04b4c2',1,'redtimer::Settings']]]
 ];

@@ -95,6 +95,11 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">redtimer::SimpleModel Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Class that represents the model of a simple item.  
+ <a href="classredtimer_1_1_simple_model.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="_models_8h_source.html">Models.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for redtimer::SimpleModel:</div>
 <div class="dyncontent">
@@ -106,41 +111,236 @@ Inheritance diagram for redtimer::SimpleModel:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:aef3601a26384ff327ae0d4b4d94145ec"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aef3601a26384ff327ae0d4b4d94145ec"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>SimpleRoles</b> { <b>IdRole</b> = Qt::UserRole + 1, 
-<b>NameRole</b>
- }</td></tr>
+<tr class="memitem:aef3601a26384ff327ae0d4b4d94145ec"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aef3601a26384ff327ae0d4b4d94145ec"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classredtimer_1_1_simple_model.html#aef3601a26384ff327ae0d4b4d94145ec">SimpleRoles</a> { <b>IdRole</b> = Qt::UserRole + 1, 
+<b>NameRole</b>, 
+<b>TextRole</b>
+ }<tr class="memdesc:aef3601a26384ff327ae0d4b4d94145ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Simple model roles. <br /></td></tr>
+</td></tr>
 <tr class="separator:aef3601a26384ff327ae0d4b4d94145ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:adeab30bac0544a5e05a1b54a68de9c48"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adeab30bac0544a5e05a1b54a68de9c48"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>SimpleModel</b> (QObject *parent=nullptr)</td></tr>
+<tr class="memitem:adeab30bac0544a5e05a1b54a68de9c48"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classredtimer_1_1_simple_model.html#adeab30bac0544a5e05a1b54a68de9c48">SimpleModel</a> (QObject *parent=nullptr)</td></tr>
+<tr class="memdesc:adeab30bac0544a5e05a1b54a68de9c48"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor.  <a href="#adeab30bac0544a5e05a1b54a68de9c48">More...</a><br /></td></tr>
 <tr class="separator:adeab30bac0544a5e05a1b54a68de9c48"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a01142aba289471543af99307bccf2fd6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a01142aba289471543af99307bccf2fd6"></a>
-<a class="el" href="classredtimer_1_1_simple_item.html">SimpleItem</a>&#160;</td><td class="memItemRight" valign="bottom"><b>at</b> (const int index) const </td></tr>
+<tr><td colspan="2"><div class="groupHeader">Getters</div></td></tr>
+<tr class="memitem:a01142aba289471543af99307bccf2fd6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classredtimer_1_1_simple_item.html">SimpleItem</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classredtimer_1_1_simple_model.html#a01142aba289471543af99307bccf2fd6">at</a> (const int index) const </td></tr>
+<tr class="memdesc:a01142aba289471543af99307bccf2fd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the simple item at the specified index.  <a href="#a01142aba289471543af99307bccf2fd6">More...</a><br /></td></tr>
 <tr class="separator:a01142aba289471543af99307bccf2fd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac1bc2c0f551e619a80d42b72d5cf632b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac1bc2c0f551e619a80d42b72d5cf632b"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>clear</b> ()</td></tr>
-<tr class="separator:ac1bc2c0f551e619a80d42b72d5cf632b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a15dfb37287309e92e9cf73979b80cc34"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a15dfb37287309e92e9cf73979b80cc34"></a>
-QList&lt; <a class="el" href="classredtimer_1_1_simple_item.html">SimpleItem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>data</b> () const </td></tr>
+<tr class="memitem:a15dfb37287309e92e9cf73979b80cc34"><td class="memItemLeft" align="right" valign="top">QList&lt; <a class="el" href="classredtimer_1_1_simple_item.html">SimpleItem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classredtimer_1_1_simple_model.html#a15dfb37287309e92e9cf73979b80cc34">data</a> () const </td></tr>
+<tr class="memdesc:a15dfb37287309e92e9cf73979b80cc34"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get all simple items from the model.  <a href="#a15dfb37287309e92e9cf73979b80cc34">More...</a><br /></td></tr>
 <tr class="separator:a15dfb37287309e92e9cf73979b80cc34"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a87ad907be363e4c13e59fb5e00c14931"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a87ad907be363e4c13e59fb5e00c14931"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>insert</b> (const <a class="el" href="classredtimer_1_1_simple_item.html">SimpleItem</a> &amp;item)</td></tr>
-<tr class="separator:a87ad907be363e4c13e59fb5e00c14931"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a926b10c34d546ce492182b6e25fd05b8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a926b10c34d546ce492182b6e25fd05b8"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>rowCount</b> (const QModelIndex &amp;parent=QModelIndex()) const </td></tr>
+<tr class="memitem:a926b10c34d546ce492182b6e25fd05b8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classredtimer_1_1_simple_model.html#a926b10c34d546ce492182b6e25fd05b8">rowCount</a> (const QModelIndex &amp;parent=QModelIndex()) const </td></tr>
+<tr class="memdesc:a926b10c34d546ce492182b6e25fd05b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the row count.  <a href="#a926b10c34d546ce492182b6e25fd05b8">More...</a><br /></td></tr>
 <tr class="separator:a926b10c34d546ce492182b6e25fd05b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Operations</div></td></tr>
+<tr class="memitem:ac1bc2c0f551e619a80d42b72d5cf632b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac1bc2c0f551e619a80d42b72d5cf632b"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classredtimer_1_1_simple_model.html#ac1bc2c0f551e619a80d42b72d5cf632b">clear</a> ()</td></tr>
+<tr class="memdesc:ac1bc2c0f551e619a80d42b72d5cf632b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear the issue model, i.e. remove all entries. <br /></td></tr>
+<tr class="separator:ac1bc2c0f551e619a80d42b72d5cf632b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11b144d138d17b6f6aac15b97dd6b9ef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classredtimer_1_1_simple_model.html#a11b144d138d17b6f6aac15b97dd6b9ef">push_back</a> (const <a class="el" href="classredtimer_1_1_simple_item.html">SimpleItem</a> &amp;item)</td></tr>
+<tr class="memdesc:a11b144d138d17b6f6aac15b97dd6b9ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Append a simple item to the end of the model.  <a href="#a11b144d138d17b6f6aac15b97dd6b9ef">More...</a><br /></td></tr>
+<tr class="separator:a11b144d138d17b6f6aac15b97dd6b9ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:af1374b1dc9f97e38fff7025505ca1372"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af1374b1dc9f97e38fff7025505ca1372"></a>
-QVariant&#160;</td><td class="memItemRight" valign="bottom"><b>data</b> (const QModelIndex &amp;index, int role=Qt::DisplayRole) const </td></tr>
+<tr class="memitem:af1374b1dc9f97e38fff7025505ca1372"><td class="memItemLeft" align="right" valign="top">QVariant&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classredtimer_1_1_simple_model.html#af1374b1dc9f97e38fff7025505ca1372">data</a> (const QModelIndex &amp;index, int role=Qt::DisplayRole) const </td></tr>
+<tr class="memdesc:af1374b1dc9f97e38fff7025505ca1372"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the simple item at the specified index from the model.  <a href="#af1374b1dc9f97e38fff7025505ca1372">More...</a><br /></td></tr>
 <tr class="separator:af1374b1dc9f97e38fff7025505ca1372"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8647b5df50aa435e23bbc071b64448be"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8647b5df50aa435e23bbc071b64448be"></a>
-QHash&lt; int, QByteArray &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>roleNames</b> () const </td></tr>
+<tr class="memitem:a8647b5df50aa435e23bbc071b64448be"><td class="memItemLeft" align="right" valign="top">QHash&lt; int, QByteArray &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classredtimer_1_1_simple_model.html#a8647b5df50aa435e23bbc071b64448be">roleNames</a> () const </td></tr>
+<tr class="memdesc:a8647b5df50aa435e23bbc071b64448be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a list of all role names in the model.  <a href="#a8647b5df50aa435e23bbc071b64448be">More...</a><br /></td></tr>
 <tr class="separator:a8647b5df50aa435e23bbc071b64448be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Class that represents the model of a simple item. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="adeab30bac0544a5e05a1b54a68de9c48"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">redtimer::SimpleModel::SimpleModel </td>
+          <td>(</td>
+          <td class="paramtype">QObject *&#160;</td>
+          <td class="paramname"><em>parent</em> = <code>nullptr</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Default constructor. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">parent</td><td>Parent QObject </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a01142aba289471543af99307bccf2fd6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classredtimer_1_1_simple_item.html">SimpleItem</a> redtimer::SimpleModel::at </td>
+          <td>(</td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the simple item at the specified index. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">index</td><td>Index within the simple item model</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The simple item at the specified index </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a15dfb37287309e92e9cf73979b80cc34"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt;<a class="el" href="classredtimer_1_1_simple_item.html">SimpleItem</a>&gt; redtimer::SimpleModel::data </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get all simple items from the model. </p>
+<dl class="section return"><dt>Returns</dt><dd>A list of all simple items in the model </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="af1374b1dc9f97e38fff7025505ca1372"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QVariant redtimer::SimpleModel::data </td>
+          <td>(</td>
+          <td class="paramtype">const QModelIndex &amp;&#160;</td>
+          <td class="paramname"><em>index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>role</em> = <code>Qt::DisplayRole</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the simple item at the specified index from the model. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">index</td><td>Index to fetch </td></tr>
+    <tr><td class="paramname">role</td><td>Role to fetch</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The simple item at the specified index </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a11b144d138d17b6f6aac15b97dd6b9ef"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void redtimer::SimpleModel::push_back </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classredtimer_1_1_simple_item.html">SimpleItem</a> &amp;&#160;</td>
+          <td class="paramname"><em>item</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Append a simple item to the end of the model. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">item</td><td>Simple item to append </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a8647b5df50aa435e23bbc071b64448be"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QHash&lt;int, QByteArray&gt; redtimer::SimpleModel::roleNames </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get a list of all role names in the model. </p>
+<dl class="section return"><dt>Returns</dt><dd>The list of all role names </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a926b10c34d546ce492182b6e25fd05b8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int redtimer::SimpleModel::rowCount </td>
+          <td>(</td>
+          <td class="paramtype">const QModelIndex &amp;&#160;</td>
+          <td class="paramname"><em>parent</em> = <code>QModelIndex()</code></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the row count. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">parent</td><td>Parent model index</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Number of rows in the model </dd></dl>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li><a class="el" href="_models_8h_source.html">Models.h</a></li>
 </ul>

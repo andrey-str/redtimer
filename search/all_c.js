@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['window',['window',['../classredtimer_1_1_issue_selector.html#a43ff535221326840d1ddbc5bb6aef497',1,'redtimer::IssueSelector::window()'],['../classredtimer_1_1_settings.html#ad4fed61a00d351684d9e55ae7707089b',1,'redtimer::Settings::window()']]]
+  ['timeentrysaved',['timeEntrySaved',['../classredtimer_1_1_red_timer.html#a034fdd55e344ca4e454ac07e70f77f98',1,'redtimer::RedTimer']]]
 ];

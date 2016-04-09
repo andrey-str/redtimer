@@ -1,11 +1,5 @@
 var searchData=
 [
-  ['save',['save',['../classredtimer_1_1_settings.html#a1d6b02ab6287491e3a2403ad9e44478b',1,'redtimer::Settings']]],
-  ['selected',['selected',['../classredtimer_1_1_issue_selector.html#af29dd08d3e658eef2d5c883f6ec8b8cf',1,'redtimer::IssueSelector']]],
-  ['setactivity',['setActivity',['../classredtimer_1_1_settings.html#ab25b2b6c973ed1db0cf8633c1dbcc221',1,'redtimer::Settings']]],
-  ['setissue',['setIssue',['../classredtimer_1_1_settings.html#a420b37e23865bfbd7d03dbe81014a093',1,'redtimer::Settings']]],
-  ['setposition',['setPosition',['../classredtimer_1_1_settings.html#ac8c143d0a2bbe10e79042871a8160ce0',1,'redtimer::Settings']]],
-  ['setproject',['setProject',['../classredtimer_1_1_settings.html#acebe3aae6f9418e57cec9a6caeefe530',1,'redtimer::Settings']]],
-  ['setprojectid',['setProjectId',['../classredtimer_1_1_issue_selector.html#a5a4f70eb404c4e9aabd2777e165a0114',1,'redtimer::IssueSelector']]],
-  ['settings',['Settings',['../classredtimer_1_1_settings.html#ac561dd40e46052baaa55660a4c91635e',1,'redtimer::Settings']]]
+  ['push_5fback',['push_back',['../classredtimer_1_1_issue_model.html#a0fb20fa6abdd4b76e4508bc7aa1fcc88',1,'redtimer::IssueModel::push_back()'],['../classredtimer_1_1_simple_model.html#a11b144d138d17b6f6aac15b97dd6b9ef',1,'redtimer::SimpleModel::push_back()']]],
+  ['push_5ffront',['push_front',['../classredtimer_1_1_issue_model.html#a8af7b1de296a6dc69d0bad14d8403e67',1,'redtimer::IssueModel']]]
 ];
